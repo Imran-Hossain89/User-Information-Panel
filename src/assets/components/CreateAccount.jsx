@@ -61,10 +61,14 @@ function CreateAccount() {
                 placeholder="input your password"
               ></input>
             </div>
+                
+                  <div className="sign_btn">
+                  <Link to="/information" >
+                    Sign up
+                   </Link>
+                  </div>
 
-            <Link to="/information" id="sign_btn">
-              Sign up
-            </Link>
+          
 
             {/* <button id="sign_btn">
               <Link to="/information"></Link>
